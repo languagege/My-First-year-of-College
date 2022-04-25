@@ -77,7 +77,7 @@ i {
     top: 2rem;
     animation: .5s swift-up ease-in-out forwards;
 }
-
+/*使得元素变化*/
 @keyframes swift-up {
     to {
         top: 0;
