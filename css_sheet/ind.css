@@ -33,10 +33,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 0;
+    animation: .5s swift-up ease-out forwards, .5s fade-in ease-out forwards;
+    animation-delay: 1.2s;
 }
-
 /*伪类应用，鼠标接触就变色,在这里是背景和字体颜色反转*/
 #enter:hover {
+    transition: all 0.5s;
     background-color: white;
     color: black;
 }

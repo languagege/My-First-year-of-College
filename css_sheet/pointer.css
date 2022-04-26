@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*这些都是导航栏所需要的模板CSS*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #101010;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: #0072dc;
+}
+
+.active:hover {
+    transition: all 0.5s;
+    background-color: #40a4ed;
+    color: #f0f8ff;
+}
