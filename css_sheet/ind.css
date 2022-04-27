@@ -3,10 +3,10 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     /*全部居中居中！！！*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: flex; /*flex盒子模型*/
+    justify-content: center; /*控制下级盒子的位置，设为中央*/
+    align-items: center; /*占交叉轴的中央*/
+    flex-direction: column; /*内含下级盒子的排列方向，设定为列*/
     min-height: 100vh;
     font-family: sans-serif;
 }

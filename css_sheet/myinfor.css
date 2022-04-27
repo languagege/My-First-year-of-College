@@ -1,0 +1,97 @@
+body {
+    background-image: url("https://www.jetbrains.com/objc/img/AppCode_beam.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+/*左边内容*/
+#touxiang {
+    padding-top: 110px;
+    text-align: center;
+    width: 20%;
+    height: 800px;
+    line-height: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: .5s showup ease-in-out forwards;
+}
+
+/*右边内容*/
+#youneirong {
+    width: 80%;
+    height: 800px;
+    padding-left: 20px;
+}
+
+span {
+    font-size: 50px;
+}
+
+/*单元格的父亲*/
+#dadge {
+    display: flex;
+    flex-wrap: wrap;
+    animation: 1.5s showup ease-in-out forwards;
+}
+
+/*每个单元格*/
+.xiaogezi {
+    border: solid grey 1px;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 45%;
+    height: 300px;
+}
+
+/*下一章节的按钮*/
+.butt:hover {
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+}
+
+.butt {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    width: 15%;
+    height: 50px;
+    /*全部居中*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.xiaobiaoti {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.xiaoneirong {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@keyframes showup {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

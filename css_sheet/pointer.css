@@ -5,13 +5,15 @@ body {
 
 /*这些都是导航栏所需要的模板CSS*/
 ul {
+    /*非常重要的固定导航栏操作*/
+    top: 0; /*在最顶上*/
+    position: sticky; /*粘住*/
+    z-index: 5; /*设置Z轴，浮在所有其他元素之上*/
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #101010;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 
@@ -27,6 +29,7 @@ li a {
     text-decoration: none;
 }
 
+/*hover样式，但排除最后一个*/
 li a:hover:not(.active) {
     transition: all 0.5s;
     background-color: white;
