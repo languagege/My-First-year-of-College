@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://www.jetbrains.com/objc/img/AppCode_beam.svg");
+    background-image: url("https://www.jetbrains.com/resharper-cpp/img/beam-1.svg");
     background-position: top;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -40,12 +40,20 @@ span {
 
 /*每个单元格*/
 .xiaogezi {
+    font-size: x-large;
+    padding-left: 10px;
+    padding-right: 10px;
     border: solid grey 1px;
     border-radius: 10px;
     margin: 5px;
     background-color: rgba(255, 255, 255, 0.8);
     width: 45%;
     height: 300px;
+}
+
+.xiaogezi:hover {
+    transition: all 0.5s;
+    background-color: white;
 }
 
 /*下一章节的按钮*/
@@ -79,7 +87,7 @@ a:link {
 
 .xiaobiaoti {
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .xiaoneirong {
