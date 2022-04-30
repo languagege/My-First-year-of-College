@@ -40,7 +40,7 @@ span {
 
 /*每个单元格*/
 .xiaogezi {
-    font-size: x-large;
+    font-size: large;
     padding-left: 10px;
     padding-right: 10px;
     border: solid grey 1px;
@@ -82,16 +82,22 @@ span {
 
 a:link {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 
+a:hover {
+    color: black;
+}
+
+/*小格子中的标题*/
 .xiaobiaoti {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
+/*小格子中的内容*/
 .xiaoneirong {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
