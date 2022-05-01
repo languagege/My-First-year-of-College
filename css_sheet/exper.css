@@ -1,0 +1,10 @@
+body {
+    background-image: url("../images/dataspell.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.yiji {
+    font-size: 60px;
+    font-weight: bolder;
+}
