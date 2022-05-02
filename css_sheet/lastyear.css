@@ -1,0 +1,33 @@
+body {
+    background-image: url("../images/dataspell.svg");
+    background-repeat: repeat-y;
+    background-position: top;
+}
+
+.yiji {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.erji {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+p {
+    padding: 3px 3px 3px 3px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+p:hover {
+    background-color: white;
+    transition: all .5s;
+}
+
+.jiacu {
+    font-weight: bold;
+}

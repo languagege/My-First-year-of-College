@@ -4,6 +4,12 @@
 
 ## 更新日志
 
+### 2022.5.2
+
+1.新增’关于‘页面  
+2.对于自我概况进行建设，并对之前的网页进行微调  
+3.对后续的网页进行了模板建设
+
 ### 2022.5.1
 
 1.五一没放假，非常痛苦地写网页，还要上晚自习  
@@ -33,10 +39,14 @@
 1.制作导航栏💬  
 2.设置流式布局
 
-    display: flex;     //flex布局 默认是横向排列
+```css
+body {
+    display: flex;
     align-items: center;
-    flex-direction: column;  //column设置了纵向排列
+    flex-direction: column;
     justify-content: center;
+}
+```
 
 ### 2022.4.25
 
