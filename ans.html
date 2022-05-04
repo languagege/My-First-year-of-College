@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抢20游戏</title>
+    <style>
+        body {
+            background-image: url("images/dataspell.svg");
+            background-repeat: repeat-y;
+            background-position: top;
+        }
+
+        P {
+            line-height: 2.5rem;
+            padding: 3px 3px 3px 3px;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 15px;
+            margin: 5px 0 5px 0;
+            background-color: white;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .huang {
+            background-color: yellow;
+        }
+
+        .container {
+            height: 50px;
+            width: 12%;
+            margin: 5px auto 5px auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 15px;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+        }
+
+        .container:hover {
+            background-color: white;
+            color: black;
+            transition: all .3s;
+        }
+    </style>
+</head>
+<body>
+<h1>解析与答案</h1>
+<h2>抢20</h2>
+<p>
+    如果把这个问题从小往大去考虑（递推），难度是比较大的，在思考过程中想着抢2、抢3、抢4，一一列举各种情况，试图找到递推的规律，随着次数的增加，难度是直线上升的。<span class="huang">但是如果我们倒过来解决这个问题，它就变得非常简单。</span>要抢到20，就必须先抢到17，因为抢到17之后，无论对方选择加1或者加2，你都可以加到20.而抢到17，就要抢到14，以此类推，就必须抢到11、8、5和2.因此对于这道题，<span
+        class="huang">你只需要抢到2，你就赢定了。</span>顺着这个思维想问题，无论是抢30还是抢50，都可以这样处理。这里面最核心的地方在于，无论对方选择1还是2，你都可以控制每一轮两人喊出的数字总和为3，这样就牢牢控制了整个过程。
+</p>
+<a href="hobby.html">
+    <div class="container">返回</div>
+</a>
+</body>
+</html>

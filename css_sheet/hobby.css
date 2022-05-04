@@ -68,3 +68,8 @@ a {
 .p:hover {
     background-color: yellow;
 }
+
+.question {
+    background-color: yellow;
+    font-weight: bold;
+}

@@ -56,11 +56,11 @@ body {
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 a:visited {
