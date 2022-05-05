@@ -1,4 +1,57 @@
+body {
+    background-color: #f1f1f3;
+}
+
 .yiji {
     font-size: 60px;
-    font-weight: bolder;
+    font-weight: bold;
 }
+
+.erji {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+p {
+    line-height: 2.5rem;
+    padding: 3px 3px 3px 3px;
+    font-size: 20px;
+    border: 5px solid black;
+    border-radius: 15px;
+    margin: 5px 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+p:hover {
+    background-color: white;
+    transition: all .5s;
+}
+
+.jiacu {
+    font-weight: bold;
+}
+
+.container {
+    height: 50px;
+    width: 12%;
+    margin: 5px auto 5px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.container:hover {
+    background-color: white;
+    color: black;
+    transition: all .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
