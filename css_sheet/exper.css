@@ -55,3 +55,20 @@ a {
     text-decoration: none;
 }
 
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 5px 5px 5px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.con:hover {
+    background-color: white;
+    transition: all .5s;
+}
+
+.ele {
+    width: 50%;
+}
+
